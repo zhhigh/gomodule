@@ -2,7 +2,6 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"fmt"
 )
 
 type MainController struct {
@@ -10,7 +9,6 @@ type MainController struct {
 }
 
 func (c *MainController) Get() {
-	fmt.Println("sssssssssssssssssssss")
 	c.Data["Website"] = "beego.me"
 	c.Data["Email"] = "astaxie@gmail.com"
 	c.TplNames = "index.tpl"
