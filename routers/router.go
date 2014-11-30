@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"gm/controllers"
+	"github.com/zhhigh/gomodule/controllers"
 	"github.com/astaxie/beego"
 )
 
